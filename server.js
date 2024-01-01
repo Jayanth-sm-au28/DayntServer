@@ -28,7 +28,6 @@ const wikipediaApiUrl = 'https://en.wikipedia.org/w/api.php';
 app.post('/login', (req, res) => {
   const { username, password } = req.body;
 
-  // Dummy admin credentials (replace with actual credentials)
   const adminUsername = 'admin';
   const adminPassword = 'adminpassword';
 
